@@ -2,6 +2,7 @@
 from src.actions.action import Action
 from src.actors.dealer import Dealer
 from src.actors.gambler import Gambler
+from src.house_rules.house_betting_rules import house_rules
 
 
 class GameRunner:
@@ -22,6 +23,10 @@ class GameRunner:
             action = player.choose_action()
 
     def run_game(self):
+        print("""Bets must be in the range of the minimum and maximum bet, and must be a whole number.
+The minimum is ${}, and the maximum is ${}.""".format(house_rules.minimum, house_rules.maximum))
+        bet = Gambler.place_bet(self)
+        print("You have bet: ${}".format(bet))
         print("This is your hand")
         print(self.gambler.hand)
         self.player_choice(self.gambler)
