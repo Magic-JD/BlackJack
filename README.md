@@ -21,7 +21,7 @@ After gambler places a bet:
  The dealer's play is automatic:
   if total >= 17, the dealer must stick
   if total < 17, the dealer must take (a) card(s) until total is >= 17
-  if dealer has an ace, and counting it as 11 would bring the total to >= 17 (bot not > 21), the dealer 
+  if dealer has an ace, and counting it as 11 would bring the total to >= 17 (but not > 21), the dealer 
    must  count the ace as 11 and stick.
   
    
