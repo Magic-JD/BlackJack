@@ -13,7 +13,7 @@ class House:
 
     def describe_house_rules(self):
         print("""Bets must be in the range of the minimum and maximum bet, and must be a whole number.
-        The minimum is ${}, and the maximum is ${}.""".format(self.house_rules.minimum, self.house_rules.maximum))
+The minimum is ${}, and the maximum is ${}.""".format(self.house_rules.minimum, self.house_rules.maximum))
 
     def accept_bet(self, bet):
         if self.house_rules.minimum <= bet <= self.house_rules.maximum:
