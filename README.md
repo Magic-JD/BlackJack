@@ -6,7 +6,7 @@ A simple blackjack game
 
 - Basic rules of betting:
 Before the deal begins, the gambler places a bet.
-Bet must be within the boundaries of minimum and maximum bets, generally $2 - $500.
+Bet must be a whole number within the boundaries of minimum and maximum bets, generally $2 - $500.
 Blackjack is a 2 player game, the dealer vs the gambler
 After gambler places a bet:
  if the gambler loses - the dealer (house) takes the bet.
