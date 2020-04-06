@@ -45,5 +45,5 @@ class GameRunner:
                 else:
                     print("Congratulations, you won!!!")
                     self.gambler.update_wallet(self.house.give_winnings(1))
-            playing = input("Enter [y] to continue playing")
+            playing = input("Enter [y] to continue playing") == "y"
 
