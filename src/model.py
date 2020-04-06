@@ -5,7 +5,7 @@ from src.actors.gambler import Gambler
 from src.house.house import House
 
 
-class GameRunner:
+class Model:
 
     def __init__(self):
         self.dealer = Dealer()

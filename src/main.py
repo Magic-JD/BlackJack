@@ -1,5 +1,10 @@
-from src.game_runner import GameRunner
+from src.model import Model
+from src.view import View
 
-runner = GameRunner()
 
-runner.run_game()
+model = Model()
+
+
+view = View()
+
+model.run_game()
